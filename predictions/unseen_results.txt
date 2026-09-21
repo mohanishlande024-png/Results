@@ -1,0 +1,168 @@
+/home/guest1/mgn/project/scripts/predict.py:70: UserWarning: Reading `.npy` or `.npz` file required additional header parsing as it was created on Python 2. Save the file again to speed up loading and avoid this warning.
+  coords = d["coords"].astype(np.float32)
+/home/guest1/mgn/project/scripts/predict.py:71: UserWarning: Reading `.npy` or `.npz` file required additional header parsing as it was created on Python 2. Save the file again to speed up loading and avoid this warning.
+  tris = d["tris"].astype(np.int64)
+/home/guest1/mgn/project/scripts/predict.py:72: UserWarning: Reading `.npy` or `.npz` file required additional header parsing as it was created on Python 2. Save the file again to speed up loading and avoid this warning.
+  truth = d["mises"].astype(np.float32) if "mises" in d else None
+==============================================================
+geometry      plate_figure8
+nodes         736
+edges         4092
+node types    applied_load=12, fixed=12, free=120, hole=18, interior=574
+==============================================================
+MGN using: cuda
+Model loaded from results/multi_geometry_mgn.pt
+
+5000 psi
+  mean          5479.0 psi
+  peak         15694.6 psi  at (-2.459, 5.000)  node type free
+  min           1140.7 psi
+  csv       results/predictions/plate_figure8__5000.csv
+  R2 vs Abaqus       0.305509
+  RMSE               1331.0 psi
+  peak truth         16627.8 psi (predicted 15694.6)
+  plot      results/predictions/plate_figure8__5000.png
+/home/guest1/mgn/project/scripts/predict.py:70: UserWarning: Reading `.npy` or `.npz` file required additional header parsing as it was created on Python 2. Save the file again to speed up loading and avoid this warning.
+  coords = d["coords"].astype(np.float32)
+/home/guest1/mgn/project/scripts/predict.py:71: UserWarning: Reading `.npy` or `.npz` file required additional header parsing as it was created on Python 2. Save the file again to speed up loading and avoid this warning.
+  tris = d["tris"].astype(np.int64)
+/home/guest1/mgn/project/scripts/predict.py:72: UserWarning: Reading `.npy` or `.npz` file required additional header parsing as it was created on Python 2. Save the file again to speed up loading and avoid this warning.
+  truth = d["mises"].astype(np.float32) if "mises" in d else None
+==============================================================
+geometry      plate_hex8
+nodes         718
+edges         3960
+node types    applied_load=12, fixed=12, free=120, hole=30, interior=544
+==============================================================
+MGN using: cuda
+Model loaded from results/multi_geometry_mgn.pt
+
+5000 psi
+  mean          6038.4 psi
+  peak         25068.7 psi  at (-0.492, -5.000)  node type free
+  min           1541.9 psi
+  csv       results/predictions/plate_hex8__5000.csv
+  R2 vs Abaqus       0.928398
+  RMSE               1102.6 psi
+  peak truth         32099.6 psi (predicted 25068.7)
+  plot      results/predictions/plate_hex8__5000.png
+/home/guest1/mgn/project/scripts/predict.py:70: UserWarning: Reading `.npy` or `.npz` file required additional header parsing as it was created on Python 2. Save the file again to speed up loading and avoid this warning.
+  coords = d["coords"].astype(np.float32)
+/home/guest1/mgn/project/scripts/predict.py:71: UserWarning: Reading `.npy` or `.npz` file required additional header parsing as it was created on Python 2. Save the file again to speed up loading and avoid this warning.
+  tris = d["tris"].astype(np.int64)
+/home/guest1/mgn/project/scripts/predict.py:72: UserWarning: Reading `.npy` or `.npz` file required additional header parsing as it was created on Python 2. Save the file again to speed up loading and avoid this warning.
+  truth = d["mises"].astype(np.float32) if "mises" in d else None
+==============================================================
+geometry      plate_j4
+nodes         1199
+edges         6802
+node types    applied_load=12, fixed=12, free=120, hole=52, interior=1003
+==============================================================
+MGN using: cuda
+Model loaded from results/multi_geometry_mgn.pt
+
+5000 psi
+  mean          6423.6 psi
+  peak         38267.0 psi  at (1.420, 1.409)  node type hole
+  min           2530.3 psi
+  csv       results/predictions/plate_j4__5000.csv
+  R2 vs Abaqus       -3.802373
+  RMSE               5340.7 psi
+  peak truth         25302.8 psi (predicted 38267.0)
+  plot      results/predictions/plate_j4__5000.png
+/home/guest1/mgn/project/scripts/predict.py:70: UserWarning: Reading `.npy` or `.npz` file required additional header parsing as it was created on Python 2. Save the file again to speed up loading and avoid this warning.
+  coords = d["coords"].astype(np.float32)
+/home/guest1/mgn/project/scripts/predict.py:71: UserWarning: Reading `.npy` or `.npz` file required additional header parsing as it was created on Python 2. Save the file again to speed up loading and avoid this warning.
+  tris = d["tris"].astype(np.int64)
+/home/guest1/mgn/project/scripts/predict.py:72: UserWarning: Reading `.npy` or `.npz` file required additional header parsing as it was created on Python 2. Save the file again to speed up loading and avoid this warning.
+  truth = d["mises"].astype(np.float32) if "mises" in d else None
+==============================================================
+geometry      plate_j8
+nodes         956
+edges         5336
+node types    applied_load=12, fixed=12, free=120, hole=56, interior=756
+==============================================================
+MGN using: cuda
+Model loaded from results/multi_geometry_mgn.pt
+
+5000 psi
+  mean          5402.0 psi
+  peak         20454.0 psi  at (0.969, -4.033)  node type hole
+  min           2617.9 psi
+  csv       results/predictions/plate_j8__5000.csv
+  R2 vs Abaqus       0.295970
+  RMSE               3662.6 psi
+  peak truth         41583.0 psi (predicted 20454.0)
+  plot      results/predictions/plate_j8__5000.png
+/home/guest1/mgn/project/scripts/predict.py:70: UserWarning: Reading `.npy` or `.npz` file required additional header parsing as it was created on Python 2. Save the file again to speed up loading and avoid this warning.
+  coords = d["coords"].astype(np.float32)
+/home/guest1/mgn/project/scripts/predict.py:71: UserWarning: Reading `.npy` or `.npz` file required additional header parsing as it was created on Python 2. Save the file again to speed up loading and avoid this warning.
+  tris = d["tris"].astype(np.int64)
+/home/guest1/mgn/project/scripts/predict.py:72: UserWarning: Reading `.npy` or `.npz` file required additional header parsing as it was created on Python 2. Save the file again to speed up loading and avoid this warning.
+  truth = d["mises"].astype(np.float32) if "mises" in d else None
+==============================================================
+geometry      plate_track8
+nodes         742
+edges         4116
+node types    applied_load=12, fixed=12, free=120, hole=24, interior=574
+==============================================================
+MGN using: cuda
+Model loaded from results/multi_geometry_mgn.pt
+
+5000 psi
+  mean          5884.3 psi
+  peak         28575.6 psi  at (-0.445, 3.950)  node type hole
+  min           1427.4 psi
+  csv       results/predictions/plate_track8__5000.csv
+  R2 vs Abaqus       0.711734
+  RMSE               1473.0 psi
+  peak truth         23984.5 psi (predicted 28575.6)
+  plot      results/predictions/plate_track8__5000.png
+/home/guest1/mgn/project/scripts/predict.py:70: UserWarning: Reading `.npy` or `.npz` file required additional header parsing as it was created on Python 2. Save the file again to speed up loading and avoid this warning.
+  coords = d["coords"].astype(np.float32)
+/home/guest1/mgn/project/scripts/predict.py:71: UserWarning: Reading `.npy` or `.npz` file required additional header parsing as it was created on Python 2. Save the file again to speed up loading and avoid this warning.
+  tris = d["tris"].astype(np.int64)
+/home/guest1/mgn/project/scripts/predict.py:72: UserWarning: Reading `.npy` or `.npz` file required additional header parsing as it was created on Python 2. Save the file again to speed up loading and avoid this warning.
+  truth = d["mises"].astype(np.float32) if "mises" in d else None
+==============================================================
+geometry      plate_tracksideways8
+nodes         652
+edges         3536
+node types    applied_load=12, fixed=12, free=120, hole=44, interior=464
+==============================================================
+MGN using: cuda
+Model loaded from results/multi_geometry_mgn.pt
+
+5000 psi
+  mean          7048.6 psi
+  peak         26012.7 psi  at (4.000, 4.000)  node type hole
+  min           1481.6 psi
+  csv       results/predictions/plate_tracksideways8__5000.csv
+  R2 vs Abaqus       0.964941
+  RMSE               1060.6 psi
+  peak truth         29966.6 psi (predicted 26012.7)
+  plot      results/predictions/plate_tracksideways8__5000.png
+/home/guest1/mgn/project/scripts/predict.py:70: UserWarning: Reading `.npy` or `.npz` file required additional header parsing as it was created on Python 2. Save the file again to speed up loading and avoid this warning.
+  coords = d["coords"].astype(np.float32)
+/home/guest1/mgn/project/scripts/predict.py:71: UserWarning: Reading `.npy` or `.npz` file required additional header parsing as it was created on Python 2. Save the file again to speed up loading and avoid this warning.
+  tris = d["tris"].astype(np.int64)
+/home/guest1/mgn/project/scripts/predict.py:72: UserWarning: Reading `.npy` or `.npz` file required additional header parsing as it was created on Python 2. Save the file again to speed up loading and avoid this warning.
+  truth = d["mises"].astype(np.float32) if "mises" in d else None
+==============================================================
+geometry      plate_tri8
+nodes         744
+edges         4122
+node types    applied_load=12, fixed=12, free=120, hole=27, interior=573
+==============================================================
+MGN using: cuda
+Model loaded from results/multi_geometry_mgn.pt
+
+5000 psi
+  mean          5820.3 psi
+  peak         17060.1 psi  at (-0.492, 5.000)  node type free
+  min           1353.6 psi
+  csv       results/predictions/plate_tri8__5000.csv
+  R2 vs Abaqus       0.544035
+  RMSE               1659.0 psi
+  peak truth         21394.8 psi (predicted 17060.1)
+  plot      results/predictions/plate_tri8__5000.png
